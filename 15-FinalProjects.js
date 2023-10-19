@@ -56,7 +56,7 @@ else if ( computerMove === 'rock') {
 }
 }
 
-else if( playerMove === 'Rock') {
+else if( playerMove === 'rock') {
     if(computerMove === 'rock') {
 result = 'you both tied' ;
 }
