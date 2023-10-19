@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="15-FinalProjects.css">
+</head>
+<body>
+<h1 class="stylehead">By Rytham Chopra....</h1>
+<p class="title">Rock Paper Scissors : </p>
+<button onclick="
+playGame('Rock');
+" class="move-button"><img src="images/rock-emoji.png" class="move-icon" alt=""></button>
+
+<button onclick="
+playGame('paper');
+" class="move-button" ><img src="images/paper-emoji.png" class="move-icon" alt=""></button>
+
+<button onclick="
+playGame('scissors');
+" class="move-button"><img src="images/scissors-emoji.png" class="move-icon" alt=""></button>
+
+<p class="choices result  "></p>
+
+<p class="js-score score "></p>
+
+<button onclick="
+reset();
+" class="reset-score-button">Reset Score</button>
+
+
+<h1>Todo List :</h1>
+
+<div class="todo-input-grid">
+
+<input placeholder=" To-Do Name" 
+class="js-name-input name-input due-date-input">
+<input type="date"
+class="js-due-date-input">
+<button class="add-todo-button js-add-todo-button">Add</button>
+</div>
+<div class="js-todo-list todo-grid">
+text
+</div>
+
+<h1>Amazon Shipping Calculator :</h1>
+<p>Order under $40 = +$10 Shipping</p>
+<p>Order above $40 = Free Shipping</p>
+
+<!--Clicks and Keydowns are known as Events , onclick and onkeydowns are known as Event Listeners . -->
+
+<input placeholder="Cost of Order" class="js-cost-input" onkeydown="
+handleCostKeyDown(event);
+">
+<button onclick="
+calculateTotal();
+
+">Calculate</button>
+
+<p class="js-total-cost"></p>
+
+<script src="15-FinalProjects.js"></script>
+    
+</body>
+</html>
