@@ -81,7 +81,7 @@ else if(result === 'you both tied'){
 }
 
 document.querySelector('.choices')
-.innerHTML = `Your Pick : <img src = "images/${playerMove}-emoji.png">, Computer Pick : <img src = "images/${computerMove}-emoji.png"> = ${result}.`;
+.innerHTML = `Your Pick : <img src = "${playerMove}-emoji.png">, Computer Pick : <img src = "${computerMove}-emoji.png"> = ${result}.`;
 document.querySelector('.js-score')
 .innerHTML = `Wins : ${score.wins} , Loss : ${score.loss} , Ties : ${score.ties}`;
 
