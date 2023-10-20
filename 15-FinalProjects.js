@@ -1,4 +1,4 @@
-
+alert('You can play Rock  , Paper and Scissors using keys such as 'r' ,'p' , 's' , Enjoy') ; 
 
 function reset(){
     score.wins = 0 ,
