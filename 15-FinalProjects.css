@@ -9,6 +9,11 @@ body{
     font-weight: bold;
 }
 
+
+.design-block {
+     height: 150px;
+}
+
 .move-icon {
 height: 100px;
 }
